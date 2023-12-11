@@ -45,6 +45,7 @@ Total - <code>{}</code>"""
     NOT_FILE_TXT = """👋 Hello {},
 
 I can't find the <b>{}</b> in my database! 🥲
+📢 Remember: My database files are from <b>2023 to date</b>
 
 👉 Google Search and check your spelling is correct.
 👉 Please read the Instructions to get better results.
