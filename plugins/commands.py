@@ -104,7 +104,7 @@ async def start(client, message):
     
     verify_status = await get_verify_status(message.from_user.id)
     if IS_VERIFY and not verify_status['is_verified']:
-        token = ''cpagrip
+        token = cpagrip
         await update_verify_status(message.from_user.id, verify_token=token, link="" if mc == 'inline_verify' else mc)
         link = https://installyourfiles.com/1604441
         btn = [[
