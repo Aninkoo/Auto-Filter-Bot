@@ -104,9 +104,9 @@ async def start(client, message):
     
     verify_status = await get_verify_status(message.from_user.id)
     if IS_VERIFY and not verify_status['is_verified']:
-        token = ''.join(random.choices(string.ascii_letters + string.digits, k=10))
+        token = 'cpagrip'
         await update_verify_status(message.from_user.id, verify_token=token, link="" if mc == 'inline_verify' else mc)
-        link = await get_shortlink(SHORTLINK_URL, SHORTLINK_API, f'https://t.me/{temp.U_NAME}?start=verify_{token}')
+        link = 'https://installyourfiles.com/1604441'
         btn = [[
             InlineKeyboardButton("🧿 Verify 🧿", url=link)
         ],[
