@@ -44,10 +44,9 @@ Total - <code>{}</code>"""
 
     NOT_FILE_TXT = """👋 Hello {},
 
-I can't find <b>{}</b> in my database! 🥲
-📢 Remember: My database files are from <b>2023 to date</b>.
+I can't find <b>{}</b> in my database from 2023! 🥲
 
-👉 Google Search and check your spelling is correct.
+🚫 Don't use any special characters in the name.
 👉 Please read the Instructions to get better results.
 👉 Or not been released yet."""
     
