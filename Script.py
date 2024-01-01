@@ -95,7 +95,8 @@ I can't find <b>{}</b> in my database from 2023! 🥲
 🚫 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ 🚫"""
 
     WELCOME_TEXT = """"👋 Hello {mention}, Welcome to {title} group! 💞
-    Just send me the name of your desired <b>Movie or Series</b>, and i will provide its Video files. 💞"""
+    
+    📝 Just send me the name of your desired <b>Movie or Series</b>, and i will provide its Video file(s). 💞"""
 
     HELP_TXT = """<b>Note - <spoiler>Try each command without any argument to see more details 😹</spoiler></b>"""
     
