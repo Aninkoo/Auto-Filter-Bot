@@ -1,6 +1,6 @@
 FROM python:3.11
 
-WORKDIR /Auto-Filter-Bot
+WORKDIR 
 
 COPY . /Auto-Filter-Bot
 
