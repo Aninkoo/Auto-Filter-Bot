@@ -8,10 +8,10 @@ class script(object):
 ★ Language: <a href=https://www.python.org>Python</a>
 ★ Library: <a href=https://pyrogram.org>Pyrogram</a>"""
 
-    MY_OWNER_TXT = """★ Name: Hansaka Anuhas
-★ Username: @Hansaka_Anuhas
-★ ID: <code>5493832202</code>
-★ Country: Sri Lanka 🇱🇰"""
+    MY_OWNER_TXT = """★ Name: Mr. John NigMore
+★ Username: @Mr_John_NigMore
+★ ID: <code>1268203820</code>
+★ Country: Nigeria 🇳🇬"""
 
     STATUS_TXT = """🗂 Total Files: <code>{}</code>
 👤 Total Users: <code>{}</code>
@@ -44,9 +44,9 @@ Total - <code>{}</code>"""
 
     NOT_FILE_TXT = """👋 Hello {},
 
-I can't find the <b>{}</b> in my database! 🥲
+I can't find <b>{}</b> in my database from 2023! 🥲
 
-👉 Google Search and check your spelling is correct.
+🚫 Don't use any special characters in the name.
 👉 Please read the Instructions to get better results.
 👉 Or not been released yet."""
     
@@ -56,7 +56,7 @@ I can't find the <b>{}</b> in my database! 🥲
 
 » sᴛᴇᴘ 1:- ғɪʀsᴛ ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴀᴅᴅ ᴛʜɪs ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴀᴅᴍɪɴ ᴘᴇʀᴍɪssɪᴏɴ.
 
-» sᴛᴇᴘ 2:- ᴍᴀᴋᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ <a href=https://telegram.me/how_to_download_channel/14>mdisklink.link</a> [ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴜsᴇ ᴏᴛʜᴇʀ sʜᴏʀᴛɴᴇʀ ᴡᴇʙsɪᴛᴇ ]
+» sᴛᴇᴘ 2:- ᴍᴀᴋᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ <a href=https://exe.io/ref/PaxTV>Best Link's Shortner</a> [ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴜsᴇ ᴏᴛʜᴇʀ sʜᴏʀᴛɴᴇʀ ᴡᴇʙsɪᴛᴇ ]
 
 » sᴛᴇᴘ 3:- ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ɢɪᴠᴇɴ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ sʜᴏʀᴛɴᴇʀ ᴡɪᴛʜ ᴛʜɪs ʙᴏᴛ.
 
@@ -94,7 +94,8 @@ I can't find the <b>{}</b> in my database! 🥲
 
 🚫 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ 🚫"""
 
-    WELCOME_TEXT = """👋 Hello {mention}, Welcome to {title} group! 💞"""
+    WELCOME_TEXT = """"👋 Hello {mention}, Welcome to {title} group! 💞
+    Just send me the name of your desired <b>Movie or Series</b>, and i will provide its Video files. 💞"""
 
     HELP_TXT = """<b>Note - <spoiler>Try each command without any argument to see more details 😹</spoiler></b>"""
     
