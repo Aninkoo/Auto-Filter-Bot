@@ -4,6 +4,6 @@ WORKDIR /AutoFilterBot-Beta
 
 COPY . /AutoFilterBot-Beta
 
-RUN pip install -r requirements.txt
+RUN pip install -r new.py
 
 CMD ["python", "bot.py"]
