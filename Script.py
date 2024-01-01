@@ -138,6 +138,6 @@ I can't find <b>{}</b> in my database from 2023! 🥲
 
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
 
-- ꜱᴏᴜʀᴄᴇ - <a href=https://github.com/SL-Bots-TG/Auto-Filter-Bot>ʜᴇʀᴇ</a>
+- ꜱᴏᴜʀᴄᴇ - <a href=https://github.com/SL-Bots-TG>ʜᴇʀᴇ</a>
 
 ᴅᴇᴠʟᴏᴘᴇʀ - <a href=https://t.me/SL_Bots_Updates>SL_Bots</a>"""
