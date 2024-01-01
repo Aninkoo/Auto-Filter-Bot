@@ -1,6 +1,6 @@
 FROM python:3.11
 
-COPY . /Auto-Filter-Bot
+WORKDIR /Auto-Filter-Bot
 
 RUN pip install -r requirements.txt
 
