@@ -2,7 +2,7 @@ FROM python:3.11
 
 WORKDIR 
 
-COPY . /Auto-Filter-Bot
+COPY 
 
 RUN pip install -r requirements.txt
 
