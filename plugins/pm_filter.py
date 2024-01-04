@@ -330,9 +330,9 @@ async def advantage_spoll_choker(bot, query):
         k = await query.message.edit(
             f"database:😔 File not Found\n\nDo you want to Request for this Movie?",
         )
-        btn.append(
+        btn = [[
         InlineKeyboardButton('📬 Request', callback_data='request')
-        )
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         if query.data == "request":
             await bot.send_message(LOG_CHANNEL, script.NO_RESULT_TXT.format(query.message.chat.title, query.message.chat.id, query.from_user.mention, search))
