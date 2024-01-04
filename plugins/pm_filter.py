@@ -326,7 +326,7 @@ async def advantage_spoll_choker(bot, query):
     if files:
         k = (search, files, offset, total_results)
         await auto_filter(bot, query, k)
-    else btn:
+    elif btn:
         k = await query.message.edit(
             f"database:😔 File not Found\n\nDo you want to Request for this Movie?",
         )
@@ -340,10 +340,13 @@ async def advantage_spoll_choker(bot, query):
         else:
             await asyncio.sleep(60)
             await k.delete()
-            try:
-                await query.message.reply_to_message.delete()
-            except:
-                pass
+    else
+        await asyncio.sleep(60)
+        await k.delete()
+        try:
+            await query.message.reply_to_message.delete()
+        except:
+            pass
                  
 @Client.on_callback_query()
 async def cb_handler(client: Client, query: CallbackQuery):
