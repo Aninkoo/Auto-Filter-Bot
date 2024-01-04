@@ -335,12 +335,12 @@ async def advantage_spoll_choker(bot, query):
         InlineKeyboardButton('📬 Request', callback_data='request')
         )
         reply_markup = InlineKeyboardMarkup(buttons)
-            if query.data == "request":
-                await bot.send_message(LOG_CHANNEL, script.NO_RESULT_TXT.format(query.message.chat.title, query.message.chat.id, query.from_user.mention, search))
-                k = await query.message.edit(f"👋 Okay {query.from_user.mention}\n\nYour request <b>'{search}'</b> has been submitted.\nThe movie should be added within 24hrs.")
-            else:
-                await asyncio.sleep(60)
-                await k.delete()
+        if query.data == "request":
+            await bot.send_message(LOG_CHANNEL, script.NO_RESULT_TXT.format(query.message.chat.title, query.message.chat.id, query.from_user.mention, search))
+            k = await query.message.edit(f"👋 Okay {query.from_user.mention}\n\nYour request <b>'{search}'</b> has been submitted.\nThe movie should be added within 24hrs.")
+        else:
+            await asyncio.sleep(60)
+            await k.delete()
             try:
                 await query.message.reply_to_message.delete()
             except:
