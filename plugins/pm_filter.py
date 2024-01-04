@@ -325,7 +325,7 @@ async def advantage_spoll_choker(bot, query):
     files, offset, total_results = await get_search_results(search)
     if files:
         k = (search, files, offset, total_results)
-        await auto_filter(bot, query, k)
+        btn = await auto_filter(bot, query, k)
     elif btn:
         k = await query.message.edit(
             f"database:😔 File not Found\n\nDo you want to Request for this Movie?",
