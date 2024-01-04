@@ -329,7 +329,6 @@ async def advantage_spoll_choker(bot, query):
     else:
         k = await query.message.edit(
             f"database:😔 File not Found\n\nDo you want to Request for this Movie?",
-            reply_markup=reply_markup
         )
         btn.append(
         InlineKeyboardButton('📬 Request', callback_data='request')
