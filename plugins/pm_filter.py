@@ -326,7 +326,7 @@ async def advantage_spoll_choker(bot, query):
     if files:
         k = (search, files, offset, total_results)
         await auto_filter(bot, query, k)
-    else:
+    elif file is None:
         btn = [[
         InlineKeyboardButton('📬 Request', callback_data='request')
         ]]
@@ -334,7 +334,7 @@ async def advantage_spoll_choker(bot, query):
         k = await query.message.edit(
             f"database:😔File not Found!\n\nDo you want to Request for this Movie?",
             reply_markup = reply_markup)
-    if query.data == "request":
+    elif query.data == "request":
         await bot.send_message(LOG_CHANNEL, script.NO_RESULT_TXT.format(query.message.chat.title, query.message.chat.id, query.from_user.mention, search))
         k = await query.message.edit(f"👋 Okay {query.from_user.mention}\n\nYour request <b>'{search}'</b> has been submitted.\nThe movie should be added within 24hrs.")
     else:
