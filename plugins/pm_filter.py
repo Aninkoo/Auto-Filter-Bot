@@ -326,7 +326,7 @@ async def advantage_spoll_choker(bot, query):
     if files:
         k = (search, files, offset, total_results)
         await auto_filter(bot, query, k)
-    elif file is None:
+    elif not files:
         btn = [[
         InlineKeyboardButton('📬 Request', callback_data='request')
         ]]
