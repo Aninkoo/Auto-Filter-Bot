@@ -34,7 +34,7 @@
 
 ## 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
 ```
-• /start - to check bot alive or not.
+• /start - to check bot alive or nott.
 • /index_channels - to check how many index channel id added.
 • /stats - to get bot status.
 • /settings - to change group settings as your wish.
