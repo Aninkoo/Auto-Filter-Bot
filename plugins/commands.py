@@ -193,11 +193,12 @@ async def start(client, message):
         ]]
     else:
         btn = [[
-            InlineKeyboardButton('⚡️ ᴜᴘᴅᴀᴛᴇs ⚡️', url=UPDATES_LINK),
-            InlineKeyboardButton('💡 ꜱᴜᴘᴘᴏʀᴛ 💡', url=SUPPORT_LINK)
-        ],[
-            InlineKeyboardButton('⁉️ ᴄʟᴏsᴇ ⁉️', callback_data='close_data')
-        ]]
+                    InlineKeyboardButton('🔎 New Search 🔍', url=SUPPORT_LINK),
+                    InlineKeyboardButton('⁉️ ᴄʟᴏsᴇ ⁉️', callback_data='close_data')
+                ],[
+                    InlineKeyboardButton('Check ⚡️ ᴜᴘᴅᴀᴛᴇs ⚡️ in Channel', url=f'https://t.me/+cXlkHDKryok0YmFk')
+                ]]
+
     await client.send_cached_media(
         chat_id=message.from_user.id,
         file_id=file_id,
