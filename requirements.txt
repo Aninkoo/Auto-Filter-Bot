@@ -11,4 +11,3 @@ aiohttp
 aiofiles
 telegraph
 openai
-speedtest-cli
