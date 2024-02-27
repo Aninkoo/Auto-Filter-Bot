@@ -1,4 +1,4 @@
-pyrofork
+Ipyrofork
 tgcrypto
 motor
 marshmallow
@@ -12,3 +12,4 @@ aiofiles
 telegraph
 openai
 speedtest-cli
+program 
