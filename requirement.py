@@ -12,4 +12,3 @@ aiofiles
 telegraph
 openai
 speedtest-cli
-pyrogram 
