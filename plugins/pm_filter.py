@@ -50,25 +50,7 @@ async def give_filter(client, message):
             pass
     else:
         pass
-    if message.from_user.id in temp.SPAM and temp.SPAM[message.from_user.id] != 0:
-        if not await db.has_premium_access(message.from_user.id):
-            try:
-                vp = int(temp.SPAM[message.from_user.id])
-                value = (vp + 5)
-            except:
-                vp = 0
-                value = (vp + 5)
-            temp.SPAM.append({message.from_user.id: value})
-            time = get_readable_time(value)
-            link = f"https://t.me/{temp.U_NAME}?start=plans"
-            await message.reply_text(script.SPAM_TXT.format(message.from_user.mention, time, link))
-            await asyncio.sleep(value)
-            temp.SPAM.append({message.from_user.id: 0})
-            return 
-        else:
-            pass
-    else:
-        pass
+    
     if settings["auto_filter"]:
         if not userid:
             await message.reply("I'm not working for anonymous admin!")
